@@ -5,21 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <a href=""><img src="" alt="logo"></a>
-           
-        <h1>hello</h1>
-        <ul>
-            <li><a href=""></a>Home</li>
-            <li><a href=""></a>About</li>
-            <li><a href=""></a>Service</li>
-            <li><a href=""></a>Menu</li>
-            <li><a href=""></a>Contact</li>
-        </ul>
-
-        <button class="button"> Order Now</button>
+    <header class="header">
+        <div class="container header-container">
+            <a href="" class="logo-link"><img src="./images/vector.png" alt="logo" ></a>
+            
+            <div class="wrap">
+                <ul class="list menu-list">
+                    <li><a href="" class="link menu-link current-link">Home</a></li>
+                    <li><a href="" class="link menu-link">About</a></li>
+                    <li><a href="" class="link menu-link">Service</a></li>
+                    <li><a href="" class="link menu-link">Menu</a></li>
+                    <li><a href="" class="link menu-link">Contact</a></li>
+                </ul>
+                
+                <button type="button" class="button btn-main">Order Now</button>
+            </div>
+        </div>
     </header>
 
     <main>
@@ -28,7 +37,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis
             cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
 
-            <button class="button"> Order Now</button>
+            <button class="button btn-main">Order Now</button>
 
             <img src="" alt="meny">
         </section>
